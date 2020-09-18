@@ -82,7 +82,6 @@ module.exports = class GhostMessage extends Plugin {
 					(r) =>
 						r && r.className && r.className.indexOf("buttons-") == 0
 				);
-				console.log(args);
 				if (
 					Permissions.can(
 						DiscordPermissions.SEND_MESSAGES,
