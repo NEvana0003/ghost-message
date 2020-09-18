@@ -82,11 +82,14 @@ module.exports = class GhostMessage extends Plugin {
 					(r) =>
 						r && r.className && r.className.indexOf("buttons-") == 0
 				);
+				console.log(args);
 				if (
 					Permissions.can(
 						DiscordPermissions.SEND_MESSAGES,
 						args[0].channel
-					)
+					) ||
+					args[0].channel.type === 1 ||
+					args[0].channel.type === 3
 				) {
 					props.children.unshift(
 						React.createElement(GhostMessageButton, {
