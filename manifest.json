@@ -1,0 +1,7 @@
+{
+	"name": "Ghost Message",
+	"description": "GhostMessage allows you to send a message which deletes itself as soon as you send it. Why is this useful? I have no idea.",
+	"author": "Kyza",
+	"version": "1.0.0",
+	"license": "MIT"
+}
