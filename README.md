@@ -1,3 +1,3 @@
-# Message Translate
+# Ghost Message
 
-Translates messages to and from languages semi-automagically.
+Make messages ghosts.
